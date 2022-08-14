@@ -1,0 +1,331 @@
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/ROMVoid95/DiscordFonts@master/Ginto-Nord/Ginto-Nord-700.woff) format("woff")
+}
+
+body {
+    margin: 0cm;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #404fec;
+    vertical-align: top;
+    align-items: center;
+}
+
+#logo {
+    width: 124px;
+    height: 34px;
+    cursor: pointer;
+
+}
+
+.elements {
+    word-spacing: 40px;
+    font-family: "Arial";
+}
+
+#title {
+    text-decoration: none;
+    color: #fff;
+    font-family:"Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+#title:hover {
+    text-decoration: underline;
+}
+
+#Login-but {
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    color: #404fec;
+    cursor: pointer;
+}
+
+.pic {
+    background-color: #404fec;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+}
+
+.head {
+    color: #fff;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#H1 {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+
+.text {
+    margin-top: -30px;
+    font-size: 18px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-family: arial;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+#down {
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 32px;
+    font-size: 20px;
+    margin-left: 65px;
+    
+}
+#down img {
+    vertical-align: top;
+}
+#down:hover{
+    box-shadow:0px 2px 2px rgba(0, 0 , 0 , .4);
+    color:#404fec;
+    box-shadow: 0em;
+    cursor: pointer;
+}
+#open {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 32px;
+    font-size: 20px;
+    margin-left: -20px;
+}
+#open:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.part1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 100px;
+}
+
+.img1 {
+    text-align: end;
+}
+.part1text{
+    line-height: 30px;
+    padding-left: 100px;
+    padding-right: 235px;
+}
+
+#heading {
+    font-weight: 700;
+    line-height: 120%;
+    font-family: Arial;
+    font-size: 32px;
+    font-size: clamp(20px,4vw,40px);
+    
+}
+
+#para{
+    font-weight: 10;
+    font-family: "Arial";
+    line-height: 30px;
+}
+.part2text{
+    padding-left: 126px;
+    padding-right: 235px;
+}
+#heading2 {
+    font-weight: 700;
+    line-height: 120%;
+    font-family: Arial;
+    font-size: 35px;
+    font-size: clamp(20px,4vw,40px);
+    
+}
+
+#para2{
+    font-weight: 10;
+    font-family: "Arial" ;
+}
+
+.part2 {
+    background-color:#f6f6f6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 100px;
+}
+
+.part3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 150px;
+}
+
+.part4 {
+    background-color: #f6f6f6;
+    display: grid;
+    grid-template-rows: 25% 75%;
+    text-align: center;
+}
+#textmid{
+    padding-right: 360px;
+    padding-left: 360px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial;
+    font-weight: 10;
+}
+.part5{
+    height:400px;
+    width: 100%;
+    margin-top: -40px;
+    background-color:  #f6f6f6;
+    text-align: center;
+    background-image: url(/images/final.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+#ready{
+    padding-top: 200px;
+    font-size: 35px;
+    font-family: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#down2 {
+    text-align: center;
+    background-color:#404fec;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 32px;
+    font-size: 20px;
+    margin-left: 65px;
+    cursor: pointer;
+}
+#down2:hover{
+    box-shadow:0px 2px 2px rgba(0, 0 , 0 , .5);
+    box-shadow: 1em;
+    opacity: .7;
+}
+
+#down2 img {
+    vertical-align: top;
+}
+
+.footer {
+    background-color: #23272a;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    grid-template-columns: 30% 70%;
+}
+.foot-image{
+    background-color: #23272a;
+}
+#red{
+    margin-left: 73px;
+    margin-top: 24px;
+}
+.foot2{
+    text-align: center;
+}
+#flag{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+#eng{
+    color: #fff;
+    display: inline-block;
+    font-family:"Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-left: 5px;
+}
+.logo-footeralingn{
+    margin-left: 150px ;
+}
+.logo-footer{
+    display: inline-block;
+    padding-left: 10px;
+}
+#icon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+#imagine{
+    font-family:"Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 700;
+}
+.foot-table{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 100px;
+}
+.mid-table{
+    font-family:"Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    padding-top: 70px;
+    line-height: 25px;
+}
+#pro{
+    color: #404fec;
+}
+#element{
+    color: #fff;
+    text-decoration: none;
+}
+#element:hover{
+    text-decoration: underline;
+}
+.final{
+    border-top: 1px solid #404fec;
+    margin-left: 100px;
+}
+
+
+.login-last{
+    border-top: 1px solid #404fec;
+    margin-right: 150px;
+    text-align: end;
+}
+.final,.login-last{
+    padding-top: 50px;
+    vertical-align: top;
+}
+#signup-but {
+    background-color: #404fec;
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
